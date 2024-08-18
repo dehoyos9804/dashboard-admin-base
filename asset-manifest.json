@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dehoyos9804/dashboard-admin-base/static/css/main.d98b8be5.css",
+    "main.js": "/dehoyos9804/dashboard-admin-base/static/js/main.7399d453.js",
+    "static/media/avatar-1.jpg": "/dehoyos9804/dashboard-admin-base/static/media/avatar-1.6d73de485d8f5657bfff.jpg",
+    "index.html": "/dehoyos9804/dashboard-admin-base/index.html",
+    "main.d98b8be5.css.map": "/dehoyos9804/dashboard-admin-base/static/css/main.d98b8be5.css.map",
+    "main.7399d453.js.map": "/dehoyos9804/dashboard-admin-base/static/js/main.7399d453.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d98b8be5.css",
+    "static/js/main.7399d453.js"
+  ]
+}
