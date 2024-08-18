@@ -1,24 +1,21 @@
-import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
+import { Box } from "@mui/material";
 import Grid from '@mui/material/Unstable_Grid2';
-import { tokens } from "../../theme";
-import { mockTransactions } from "../../data/mockData";
-import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
-import EmailIcon from "@mui/icons-material/Email";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import TrafficIcon from "@mui/icons-material/Traffic";
 import Header from "../../components/Header";
-import StatBox from "../../components/StatBox";
-import ProgressCircle from "../../components/ProgressCircle";
 import TrafficCard from "../../components/TrafficCard";
-import AreaChartCard from "../../components/AreaChartCard";
-import Card from '@mui/material/Card';
+import AreaChartCard from "../../components/example/AreaChartCard";
+import Transactions from "../../components/example/Transactions";
+import ChartCard from "../../components/example/CharCard";
+import MultipleBarChar from "../../components/example/MultipleBarChar";
+import MultipleLineChar from "../../components/example/MultipleLineChar";
 
 const Dashboard = () => {
-    const theme = useTheme();
-    const colors = tokens(theme.palette.mode);
     return (
-        <Box m="20px">
+        <Box
+            m="20px"
+        >
             {/* HEADER */}
             <Box display="flex" justifyContent="space-between" alignItems="center">
                 <Header title="DASHBOARD" subtitle="Welcome to your dashboard" />
@@ -77,6 +74,18 @@ const Dashboard = () => {
                 </Grid>
                 <Grid item xs={12} sm={12} md={8}>
                     <AreaChartCard/>
+                </Grid>
+                <Grid item xs={12} sm={12} md={4}>
+                    <Transactions/>
+                </Grid>
+                <Grid item xs={12} sm={12} md={4}>
+                    <ChartCard/>
+                </Grid>
+                <Grid item xs={12} sm={12} md={4}>
+                    <MultipleBarChar/>
+                </Grid>
+                <Grid item xs={12} sm={12} md={4}>
+                    <MultipleLineChar/>
                 </Grid>
             </Grid>
         </Box>

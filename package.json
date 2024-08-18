@@ -1,6 +1,6 @@
 {
-  "name": "dashboard-admin-base",
-  "homepage": "https://dehoyos9804.github.io/dashboard-admin-base",
+  "name": "app-admin",
+  "homepage": "https://dehoyos9804.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

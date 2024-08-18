@@ -1,10 +1,9 @@
-import {Card, CardContent, Icon} from '@mui/material';
+import {Card, CardContent} from '@mui/material';
 import { Box, Typography, useTheme } from "@mui/material";
 import { tokens } from '../theme';
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 import TrendingUpIcon from '@mui/icons-material/TrendingUp';
-import ProgressCircle from "./ProgressCircle";
 
 const TrafficCard = ({
     colorCircle,
@@ -35,8 +34,8 @@ const TrafficCard = ({
                         <Typography variant="h4" component="div">
                             { valueTrend ?? "350,897"}
                         </Typography>
-                        <Box display="flex" alignItems="center" sx={{ color: trendIcon == 'down' ? colors.redAccent[500] : colors.greenAccent[500] }}>
-                            {trendIcon == 'down' ? <ArrowDownwardIcon/>: <ArrowUpwardIcon/>}
+                        <Box display="flex" alignItems="center" sx={{ color: trendIcon === 'down' ? colors.redAccent[500] : colors.greenAccent[500] }}>
+                            {trendIcon === 'down' ? <ArrowDownwardIcon/>: <ArrowUpwardIcon/>}
                             <Typography variant="body2" component="span">
                                 {increase ?? "3.48%"}
                             </Typography>
