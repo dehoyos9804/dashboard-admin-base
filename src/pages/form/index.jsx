@@ -11,6 +11,7 @@ const Form = () => {
 
     const handleFormSubmit = (values) => {
         console.log(values);
+        console.log(colors.blueAccent[400])
     };
 
     return (
