@@ -79,13 +79,13 @@ const Dashboard = () => {
                     <Transactions/>
                 </Grid>
                 <Grid item xs={12} sm={12} md={4}>
-                    <ChartCard/>
+                    <MultipleLineChar />
                 </Grid>
                 <Grid item xs={12} sm={12} md={4}>
                     <MultipleBarChar/>
                 </Grid>
                 <Grid item xs={12} sm={12} md={4}>
-                    <MultipleLineChar/>
+                    <ChartCard/>
                 </Grid>
             </Grid>
         </Box>
