@@ -2,8 +2,6 @@
 
 This project is a **Dashboard Admin Template** developed in **React JS**. The main objective of the project was to create a modern, intuitive and fully **responsive** administration interface that adapts to any device, from mobile to desktop.
 
-![React Js](https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg)
-
 ## Technologies and Libraries Used 🤖
 - **[React JS](https://react.dev/)**: The foundation of the project, a JavaScript library for efficiently building user interfaces through the use of reusable components.
 - **[Material UI](https://mui.com/)**: It was used to implement a consistent and modern design system, taking advantage of its extensive collection of predefined and highly customizable components.
@@ -23,7 +21,6 @@ git clone https://github.com/dehoyos9804/dashboard-admin-base.git
 ```
 
 It is recommended to use [**npm**](https://www.npmjs.com/)
-
 
 ### Available Scripts
 
