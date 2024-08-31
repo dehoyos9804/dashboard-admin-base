@@ -135,7 +135,7 @@ const SidePanel = ({
                     color={colors.grey[300]}
                     sx={{ m: "15px 0 5px 20px" }}
                 >
-                    Data
+                    Info
                 </Typography>
                 <Item
                     title="Manage Team"
@@ -163,7 +163,7 @@ const SidePanel = ({
                     color={colors.grey[300]}
                     sx={{ m: "15px 0 5px 20px" }}
                 >
-                    Pages
+                    Apps
                 </Typography>
                 <Item
                     title="Profile Form"
@@ -180,8 +180,8 @@ const SidePanel = ({
                     setSelected={setSelected}
                 />
                 <Item
-                    title="FAQ Page"
-                    to="/faq"
+                    title="Notification"
+                    to="/notification"
                     icon={<HelpOutlinedIcon />}
                     selected={selected}
                     setSelected={setSelected}
