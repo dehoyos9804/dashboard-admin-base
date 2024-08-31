@@ -1,8 +1,8 @@
-import { tokens } from "../../theme";
+import { tokens } from "../../../theme";
 import { useTheme } from "@mui/material";
-import Header from "../../components/Header";
+import Header from "../../../components/Header";
 import { Box } from "@mui/material";
-import { mockDataContacts } from "../../data/mockData";
+import { mockDataContacts } from "../../../data/mockData";
 import { DataGrid, GridToolbar } from "@mui/x-data-grid";
 
 const Contacts = () => {

@@ -13,8 +13,8 @@ import {
   Typography,
   useTheme,
 } from "@mui/material";
-import Header from "../../components/Header";
-import { tokens } from "../../theme";
+import Header from "../../../components/Header";
+import { tokens } from "../../../theme";
 import Grid from '@mui/material/Unstable_Grid2';
 
 const Calendar = () => {

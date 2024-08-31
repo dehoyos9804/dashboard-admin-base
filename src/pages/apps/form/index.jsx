@@ -1,8 +1,8 @@
 import { Box, Button, TextField, useTheme } from "@mui/material";
 import * as yup from "yup";
 import { Formik } from "formik";
-import Header from "../../components/Header";
-import { tokens } from "../../theme";
+import Header from "../../../components/Header";
+import { tokens } from "../../../theme";
 import Grid from '@mui/material/Unstable_Grid2';
 
 const Form = () => {
