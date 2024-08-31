@@ -11,7 +11,7 @@ This project is a **Dashboard Admin Template** developed in **React JS**. The ma
 
 ## Demo 👀
 Visit the following link to see the demo in action:
-[Click here to watch the demo!](https://dashboard-admin-de-hoyos.netlify.app/)
+[![Click here to watch the demo](https://github.com/dehoyos9804/dashboard-admin-base/blob/develop/src/assets/images/demo.png)](https://dashboard-admin-de-hoyos.netlify.app/)
 
 ## Getting started 🚀
 _These instructions will allow you to get a working copy of the project on your local machine for development and testing purposes._
