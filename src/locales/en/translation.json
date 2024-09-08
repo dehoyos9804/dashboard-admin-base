@@ -1,0 +1,29 @@
+{
+    "topbar": {
+        "search": "Search",
+        "account": {
+            "my_account": "My Account",
+            "reset_password": "Reset Password",
+            "settings": "Settings",
+            "logout": "Logout"
+        }
+    },
+    "sidepanel": {
+        "user_profile": "User Profile",
+        "dashboard": "Dashboard",
+        "info": "Info",
+        "manage_team": "Manage Team",
+        "contacts_information": "Contacts Information",
+        "invoices_balances": "Invoices Balances",
+        "apps": "Apps",
+        "profile_form": "Profile Form",
+        "calendar": "Calendar",
+        "notification": "Notification",
+        "table_responsive": "Table Responsive",
+        "charts": "Charts",
+        "bar_chart": "Bar Chart",
+        "pie_chart": "Pie Chart",
+        "line_chart": "Line Chart",
+        "geography_chart": "Geography Chart"
+    }
+}

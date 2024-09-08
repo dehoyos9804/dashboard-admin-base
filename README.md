@@ -1,8 +1,28 @@
-# Getting Started with Create React App
+# DASHBOARD ADMIN TEMPLATE RECT JS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a **Dashboard Admin Template** developed in **React JS**. The main objective of the project was to create a modern, intuitive and fully **responsive** administration interface that adapts to any device, from mobile to desktop.
 
-## Available Scripts
+## Technologies and Libraries Used 🤖
+- **[React JS](https://react.dev/)**: The foundation of the project, a JavaScript library for efficiently building user interfaces through the use of reusable components.
+- **[Material UI](https://mui.com/)**: It was used to implement a consistent and modern design system, taking advantage of its extensive collection of predefined and highly customizable components.
+- **[shadcn/ui](https://shadcn.dev/)**: It was integrated to complement Material UI, adding additional components with a minimalist and flexible approach, allowing detailed customization of the interface.
+
+## Demo 👀
+Visit the following link to see the demo in action:
+[![Click here to watch the demo](https://github.com/dehoyos9804/dashboard-admin-base/blob/develop/src/assets/images/demo.png)](https://dashboard-admin-de-hoyos.netlify.app/)
+
+## Getting started 🚀
+_These instructions will allow you to get a working copy of the project on your local machine for development and testing purposes._
+
+### Clone this repository and host it in a convenient folder.
+
+```sh
+git clone https://github.com/dehoyos9804/dashboard-admin-base.git
+```
+
+It is recommended to use [**npm**](https://www.npmjs.com/)
+
+### Available Scripts
 
 In the project directory, you can run:
 
@@ -39,32 +59,8 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## License 📄
+This project is licensed under the MIT License - see the file [LICENSE.md](LICENSE.md) for details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+⌨️ con ❤️ por [Aldair De Hoyos](https://github.com/dehoyos9804) 😊

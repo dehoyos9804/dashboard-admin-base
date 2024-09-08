@@ -1,0 +1,29 @@
+{
+    "topbar": {
+        "search": "Buscar",
+        "account": {
+            "my_account": "Mi cuenta",
+            "reset_password": "Restablecer contraseña",
+            "settings": "Ajustes",
+            "logout": "Cerrar sesión"
+        }
+    },
+    "sidepanel": {
+        "user_profile": "Perfil de Usuario",
+        "dashboard": "Panel de Control",
+        "info": "Información",
+        "manage_team": "Gestionar Equipo",
+        "contacts_information": "Información de Contactos",
+        "invoices_balances": "Saldos de Facturas",
+        "apps": "Aplicaciones",
+        "profile_form": "Formulario de Perfil",
+        "calendar": "Calendario",
+        "notification": "Notificación",
+        "table_responsive": "Tabla Responsiva",
+        "charts": "Gráficos",
+        "bar_chart": "Gráfico de Barras",
+        "pie_chart": "Gráfico Circular",
+        "line_chart": "Gráfico de Líneas",
+        "geography_chart": "Gráfico Geográfico"
+    }
+}

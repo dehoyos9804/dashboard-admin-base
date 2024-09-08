@@ -1,0 +1,29 @@
+{
+    "topbar": {
+        "search": "Procurar",
+        "account": {
+            "my_account": "Minha conta",
+            "reset_password": "Redefinir senha",
+            "settings": "Configurações",
+            "logout": "Sair"
+        }
+    },
+    "sidepanel": {
+        "user_profile": "Perfil do Usuário",
+        "dashboard": "Painel de Controle",
+        "info": "Informações",
+        "manage_team": "Gerenciar Equipe",
+        "contacts_information": "Informações de Contatos",
+        "invoices_balances": "Saldos de Faturas",
+        "apps": "Aplicativos",
+        "profile_form": "Formulário de Perfil",
+        "calendar": "Calendário",
+        "notification": "Notificação",
+        "table_responsive": "Tabela Responsiva",
+        "charts": "Gráficos",
+        "bar_chart": "Gráfico de Barras",
+        "pie_chart": "Gráfico de Pizza",
+        "line_chart": "Gráfico de Linhas",
+        "geography_chart": "Gráfico Geográfico"
+    }
+}

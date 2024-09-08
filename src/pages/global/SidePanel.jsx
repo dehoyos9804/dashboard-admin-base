@@ -17,6 +17,8 @@ import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import MapOutlinedIcon from '@mui/icons-material/MapOutlined';
 import avatar1 from '../../assets/profile/avatar-1.jpg';
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
+import AppsOutageOutlinedIcon from '@mui/icons-material/AppsOutageOutlined';
+import { useTranslation } from 'react-i18next';
 
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
@@ -49,6 +51,7 @@ const SidePanel = ({
     const theme = useTheme();
     const colors = tokens(theme.palette.mode);
     const [selected, setSelected] = useState('Dashboard');
+    const { t } = useTranslation();
 
     const menuItemStyle = {
         button: {
@@ -87,9 +90,7 @@ const SidePanel = ({
                             alignItems="center"
                             ml="15px"
                         >
-                            <Typography variant="h3" color={colors.grey[100]}>
-                                ADMINIS 
-                            </Typography>
+                            <Typography variant="h3" color={colors.grey[100]}/>
                             <IconButton onClick={broken ? () => { handleIsCollapsed(false); handleToggleSidebar(false) } : () => handleIsCollapsed(!isCollapsed)}>
                                 <CloseOutlinedIcon />
                             </IconButton>
@@ -118,13 +119,13 @@ const SidePanel = ({
                                 Ed Roh
                             </Typography>
                             <Typography variant="h5" color={colors.greenAccent[500]}>
-                                VP Fancy Admin
+                                {t('sidepanel.user_profile')}
                             </Typography>
                         </Box>
                     </Box>
                 )}
                 <Item
-                    title="Dashboard"
+                    title={t('sidepanel.dashboard')}
                     to="/"
                     icon={<HomeOutlinedIcon />}
                     selected={selected}
@@ -135,24 +136,24 @@ const SidePanel = ({
                     color={colors.grey[300]}
                     sx={{ m: "15px 0 5px 20px" }}
                 >
-                    Info
+                    {t('sidepanel.info')}
                 </Typography>
                 <Item
-                    title="Manage Team"
+                    title={t('sidepanel.manage_team')}
                     to="/team"
                     icon={<PeopleOutlineOutlinedIcon />}
                     selected={selected}
                     setSelected={setSelected}
                 />
                 <Item
-                    title="Contacts Information"
+                    title={t('sidepanel.contacts_information')}
                     to="/contacts"
                     icon={<ContactSupportOutlinedIcon />}
                     selected={selected}
                     setSelected={setSelected}
                 />
                 <Item
-                    title="Invoices Balances"
+                    title={t('sidepanel.invoices_balances')}
                     to="/invoices"
                     icon={<ReceiptOutlinedIcon />}
                     selected={selected}
@@ -163,26 +164,34 @@ const SidePanel = ({
                     color={colors.grey[300]}
                     sx={{ m: "15px 0 5px 20px" }}
                 >
-                    Apps
+                    {t('sidepanel.apps')}
                 </Typography>
                 <Item
-                    title="Profile Form"
+                    title={t('sidepanel.profile_form')}
                     to="/form"
                     icon={<PersonOutlineOutlinedIcon />}
                     selected={selected}
                     setSelected={setSelected}
                 />
                 <Item
-                    title="Calendar"
+                    title={t('sidepanel.calendar')}
                     to="/calendar"
                     icon={<CalendarTodayOutlinedIcon />}
                     selected={selected}
                     setSelected={setSelected}
                 />
                 <Item
-                    title="Notification"
+                    title={t('sidepanel.notification')}
                     to="/notification"
                     icon={<HelpOutlinedIcon />}
+                    selected={selected}
+                    setSelected={setSelected}
+                />
+
+                <Item
+                    title={t('sidepanel.table_responsive')}
+                    to="/table-responsive"
+                    icon={<AppsOutageOutlinedIcon />}
                     selected={selected}
                     setSelected={setSelected}
                 />
@@ -192,31 +201,31 @@ const SidePanel = ({
                     color={colors.grey[300]}
                     sx={{ m: "15px 0 5px 20px" }}
                 >
-                    Charts
+                    {t('sidepanel.charts')}
                 </Typography>
                 <Item
-                    title="Bar Chart"
+                    title={t('sidepanel.bar_chart')}
                     to="/bar"
                     icon={<BarChartOutlinedIcon />}
                     selected={selected}
                     setSelected={setSelected}
                 />
                 <Item
-                    title="Pie Chart"
+                    title={t('sidepanel.pie_chart')}
                     to="/pie"
                     icon={<PieChartOutlinedIcon />}
                     selected={selected}
                     setSelected={setSelected}
                 />
                 <Item
-                    title="Line Chart"
+                    title={t('sidepanel.line_chart')}
                     to="/line"
                     icon={<TimelineOutlinedIcon />}
                     selected={selected}
                     setSelected={setSelected}
                 />
                 <Item
-                    title="Geography Chart"
+                    title={t('sidepanel.geography_chart')}
                     to="/geography"
                     icon={<MapOutlinedIcon />}
                     selected={selected}
