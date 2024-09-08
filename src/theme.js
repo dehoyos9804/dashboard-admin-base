@@ -189,6 +189,61 @@ export const themeSettings = (mode) => {
         fontSize: 14,
       },
     },
+    components: {
+      MUIDataTable: {
+        styleOverrides: {
+          paper: {
+            backgroundColor: colors.primary[400], // Color de fondo de la tabla
+          },
+        },
+      },
+      MUIDataTableHeadCell: {
+        styleOverrides: {
+          root: {
+            backgroundColor: colors.primary[400], // Color de fondo del encabezado
+          },
+        },
+      },
+      MUIDataTableBodyCell: {
+        styleOverrides: {
+          root: {
+            backgroundColor: colors.primary[400],
+          },
+        },
+      },
+      MUIDataTableToolbar: {
+        styleOverrides: {
+          root: {
+            backgroundColor: colors.primary[400],
+          },
+        },
+      },
+      MUIDataTableFooter: {
+        styleOverrides: {
+          root: {
+            backgroundColor: colors.primary[400], // Color de fondo del pie de página
+          },
+        },
+      },
+      MUIDataTableSelectCell: {
+        styleOverrides: {
+          root: {
+            "&.MuiTableCell-root": {
+              backgroundColor: colors.primary[400], // Fondo de la celda de verificación
+            },
+            "& .MuiCheckbox-root": {
+              color: colors.primary[500], // Color del checkbox cuando no está seleccionado
+            },
+            "& .Mui-checked": {
+              color: colors.primary[500], // Color del checkbox cuando está seleccionado
+            },
+            "&:hover": {
+              backgroundColor: "rgba(144, 202, 249, 0.08)", // Fondo al pasar el mouse
+            },
+          },
+        },
+      },
+    },
   };
 };
 

@@ -12,6 +12,7 @@ import Pie from "../pages/charts/pie";
 import Line from "../pages/charts/line";
 import Geography from "../pages/charts/geography";
 import Notification from "../pages/apps/notification";
+import TableResponsive from "../pages/apps/table-responsive";
 
 const router = createBrowserRouter([
   {
@@ -49,6 +50,10 @@ const router = createBrowserRouter([
       {
         path: "/notification",
         element: <Notification />,
+      },
+      {
+        path: "/table-responsive",
+        element: <TableResponsive />,
       },
       {
         path: "/bar",
